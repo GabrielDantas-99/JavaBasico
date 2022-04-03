@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		//Scanner sc = new Scanner(System.in);
-		/*
+		Scanner sc = new Scanner(System.in);
+		
 		// === ESCREVENDO A PRIMEIRA MENSAGEM EM JAVA ===
 		System.out.println("Olá Mundo!");
 		
@@ -244,7 +244,7 @@ public class Main {
 		// Buscar: indexOf, lastIndexOf
 		// str.split(""): separar de acordo com o separador
 		// substring(index) : Cria uma nova string a partir do index fornecido
-		*/
+		
 		String original = " abcde FGHIJ ABC DEFG  ";
 		String s01 = original.toLowerCase();
 		String s02 = original.toUpperCase();

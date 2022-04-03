@@ -5,7 +5,7 @@ public class Repeticao {
 
 	public static void main(String[] args) {
 		
-		Scanner sc = new Scanner(System.in);/*
+		Scanner sc = new Scanner(System.in);
 		// === ESTRUTURA DE REPETICAO WHILE ===
 		int x = sc.nextInt();
 		int soma = 0;
@@ -28,8 +28,9 @@ public class Repeticao {
 			System.out.print("Deseja repetir (s/n)? ");
 			resp = sc.next().charAt(0);
 		} while (resp != 'n'); 
+		
 		System.out.println("Fim do programa");
-		*/
+		
 		// === ESTRUTURA DE REPETIÇÃO FOR ===
 		int N = sc.nextInt();
 		int SOMA2 = 0;
